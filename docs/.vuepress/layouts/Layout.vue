@@ -2,7 +2,7 @@
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 import ArticleFooter from '../components/ArticleFooter.vue';
 import TagsDisplay from '../components/TagsDisplay.vue';
-import PdfDowload from '../components/PdfDowload.vue';
+import PdfDowload from '../components/pdfDowload.vue';
 </script>
 
 <template>
