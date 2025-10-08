@@ -5,24 +5,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
+    <!-- Netlify Identity Widget - MUST be first -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body>
-    <!-- Include the Netlify CMS script -->
+    <!-- Netlify CMS - Depends on Identity Widget -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
-        // Make sure the Identity widget is ready before Netlify CMS tries to use it
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on('init', (user) => {
-                if (!user) {
-                    window.netlifyIdentity.on('login', () => {
-                        document.location.href = '/admin/';
-                    });
-                }
-            });
-        }
-    </script>
+    <!-- Nothing else here for now to avoid interference -->
 </body>
 
 </html>
