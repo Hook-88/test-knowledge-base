@@ -50,6 +50,146 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "General FAQ",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Where can I find support?",
+        "slug": "where-can-i-find-support",
+        "link": "#where-can-i-find-support",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Do you support Windows?",
+        "slug": "do-you-support-windows",
+        "link": "#do-you-support-windows",
+        "children": []
+      }
+    ],
+    "path": "/faq/general.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "faq common questions"
+    ]
+  },
+  {
+    "title": "Troubleshooting",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Login Errors",
+        "slug": "login-errors",
+        "link": "#login-errors",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Connectivity Issues",
+        "slug": "connectivity-issues",
+        "link": "#connectivity-issues",
+        "children": []
+      }
+    ],
+    "path": "/faq/troubleshooting.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "faq errors fixes"
+    ]
+  },
+  {
+    "title": "Gebruiker toevoegen",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Methodes",
+        "slug": "methodes",
+        "link": "#methodes",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "SSO",
+        "slug": "sso",
+        "link": "#sso",
+        "children": [
+          {
+            "level": 3,
+            "title": "ECD/EPD",
+            "slug": "ecd-epd",
+            "link": "#ecd-epd",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "OpenId / Hybride",
+            "slug": "openid-hybride",
+            "link": "#openid-hybride",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Sms-code",
+        "slug": "sms-code",
+        "link": "#sms-code",
+        "children": []
+      }
+    ],
+    "path": "/medimo-app/add-user.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "setup install windows"
+    ]
+  },
+  {
+    "title": "instalatie",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Requirements",
+        "slug": "requirements",
+        "link": "#requirements",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Download",
+        "slug": "step-1-download",
+        "link": "#step-1-download",
+        "children": [
+          {
+            "level": 3,
+            "title": "IOS",
+            "slug": "ios",
+            "link": "#ios",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Andriod",
+            "slug": "andriod",
+            "link": "#andriod",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Gebruiker koppelen",
+        "slug": "step-2-gebruiker-koppelen",
+        "link": "#step-2-gebruiker-koppelen",
+        "children": []
+      }
+    ],
+    "path": "/medimo-app/installation.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "setup install windows"
+    ]
+  },
+  {
     "title": "First Steps",
     "headers": [],
     "path": "/toedienregistratie/first-steps.html",
@@ -447,146 +587,6 @@ export const SEARCH_INDEX = [
     ]
   },
   {
-    "title": "Gebruiker toevoegen",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Methodes",
-        "slug": "methodes",
-        "link": "#methodes",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "SSO",
-        "slug": "sso",
-        "link": "#sso",
-        "children": [
-          {
-            "level": 3,
-            "title": "ECD/EPD",
-            "slug": "ecd-epd",
-            "link": "#ecd-epd",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "OpenId / Hybride",
-            "slug": "openid-hybride",
-            "link": "#openid-hybride",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Sms-code",
-        "slug": "sms-code",
-        "link": "#sms-code",
-        "children": []
-      }
-    ],
-    "path": "/medimo-app/add-user.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "setup install windows"
-    ]
-  },
-  {
-    "title": "instalatie",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Requirements",
-        "slug": "requirements",
-        "link": "#requirements",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Step 1: Download",
-        "slug": "step-1-download",
-        "link": "#step-1-download",
-        "children": [
-          {
-            "level": 3,
-            "title": "IOS",
-            "slug": "ios",
-            "link": "#ios",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Andriod",
-            "slug": "andriod",
-            "link": "#andriod",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Step 2: Gebruiker koppelen",
-        "slug": "step-2-gebruiker-koppelen",
-        "link": "#step-2-gebruiker-koppelen",
-        "children": []
-      }
-    ],
-    "path": "/medimo-app/installation.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "setup install windows"
-    ]
-  },
-  {
-    "title": "General FAQ",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Where can I find support?",
-        "slug": "where-can-i-find-support",
-        "link": "#where-can-i-find-support",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Do you support Windows?",
-        "slug": "do-you-support-windows",
-        "link": "#do-you-support-windows",
-        "children": []
-      }
-    ],
-    "path": "/faq/general.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "faq common questions"
-    ]
-  },
-  {
-    "title": "Troubleshooting",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Login Errors",
-        "slug": "login-errors",
-        "link": "#login-errors",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Connectivity Issues",
-        "slug": "connectivity-issues",
-        "link": "#connectivity-issues",
-        "children": []
-      }
-    ],
-    "path": "/faq/troubleshooting.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "faq errors fixes"
-    ]
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -594,16 +594,3 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

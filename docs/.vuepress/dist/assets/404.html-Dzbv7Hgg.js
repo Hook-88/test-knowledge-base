@@ -1,0 +1,1 @@
+import{_ as e,a as n,d as o,b as a}from"./app-Dsm_f7kA.js";const l={};function r(s,t){return a(),n("div",null,[...t[0]||(t[0]=[o("p",null,"404 Not Found",-1)])])}const _=e(l,[["render",r]]),d=JSON.parse('{"path":"/404.html","title":"","lang":"en-US","frontmatter":{"layout":"NotFound"},"git":{},"filePathRelative":null}');export{_ as comp,d as data};

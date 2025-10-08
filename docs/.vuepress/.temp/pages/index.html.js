@@ -1,16 +1,3 @@
 import comp from "/Users/paulushoekjan/repos/vue-press/test-knowledge-base/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"Home\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Home\",\"discription\":\"Medimo kennisbank homepage\",\"home\":true,\"heroImage\":\"https://enovationmedimo.nl/wp-content/uploads/sites/7/2024/04/ENO_Entiteit_Medimo_Staand_Fullcolour-600x542.png\",\"actions\":[{\"text\":\"Aan de slag\",\"link\":\"/aan-de-slag/\",\"type\":\"primary\"},{\"text\":\"Introductie\",\"link\":\"https://enovationmedimo.nl/ons-verhaal/\",\"type\":\"secondary\"}],\"footer\":\"Copyright © 2025-present Hook88 b.v.\"},\"git\":{},\"filePathRelative\":\"README.md\"}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"Home\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Home\",\"discription\":\"Medimo kennisbank homepage\",\"home\":true,\"heroImage\":\"https://enovationmedimo.nl/wp-content/uploads/sites/7/2024/04/ENO_Entiteit_Medimo_Staand_Fullcolour-600x542.png\",\"actions\":[{\"text\":\"Aan de slag\",\"link\":\"/aan-de-slag/\",\"type\":\"primary\"},{\"text\":\"Introductie\",\"link\":\"https://enovationmedimo.nl/ons-verhaal/\",\"type\":\"secondary\"}],\"footer\":\"Copyright © 2025-present Hook88 b.v.\"},\"git\":{\"updatedTime\":1759961282000,\"contributors\":[{\"name\":\"Hook-88\",\"username\":\"Hook-88\",\"email\":\"82540853+Hook-88@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/Hook-88\"}],\"changelog\":[{\"hash\":\"e8c3864eedf61cf63a75880caf560a272da61efd\",\"time\":1759961282000,\"email\":\"82540853+Hook-88@users.noreply.github.com\",\"author\":\"Hook-88\",\"message\":\"First commit\"}]},\"filePathRelative\":\"README.md\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
