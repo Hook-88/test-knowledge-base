@@ -6,7 +6,7 @@ type: web
 
 # Dosering aanpassen - Regulier
 
-In de weergave regulier geeft u per standaard toedientijd een dosering op. U doet dat in een scherm waar de afbeelding hieronder een voorbeeld toont.
+In de weergave regulier geeft u per standaard toedientijd een dosering op. U doet dat in een scherm waar de afbeelding hieronder een voorbeeld toont..
 ![Weergave regulier](/images/nieuwe-medicatie-starten/weergave-regulier/weergave-regulier.png)
 
 Hieronder volgt een toelichting op wat er wordt getoond.
