@@ -9,6 +9,13 @@ export default defineUserConfig({
   title: "Kennisbank",
   description: "Kennisbank van Medimo",
 
+  head: [
+    [
+      "script",
+      { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+    ],
+  ],
+
   plugins: [
     searchPlugin({
       locales: {
