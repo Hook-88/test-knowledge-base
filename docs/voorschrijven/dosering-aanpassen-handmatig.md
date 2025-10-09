@@ -10,9 +10,7 @@ type: web
 ---
 D﻿An krijgen we hier de body
 
-
-
-[H﻿ier een link naar 1](<#h-﻿ier-een-hoofdstuk>)
+[H﻿ier een andere link](#h-ier-een-hoofdstuk)
 
 ![Dosering opgeven weergave Handmatig](/uploads/screenshot-2025-10-09-at-08-34-08-medimo-evs.png "Dosering opgeven weergave Handmatig")
 
