@@ -12,7 +12,7 @@ D﻿An krijgen we hier de body
 
 ![Dosering opgeven weergave Handmatig](/uploads/screenshot-2025-10-09-at-08-34-08-medimo-evs.png "Dosering opgeven weergave Handmatig")
 
-[E﻿n dat hier war text](#H﻿ier een ander hoofdstuk)
+[E﻿n dat hier war text](#hier-een-ander-hoofdstuk)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet magna turpis, et sagittis metus feugiat non. Ut varius odio at nisi ultricies, id pulvinar nunc maximus. Donec quis ullamcorper ex. Mauris dapibus volutpat turpis, sit amet commodo dolor sollicitudin vel. Morbi porta tincidunt arcu id vehicula. Morbi ut sapien sed nulla sodales ullamcorper. Ut sit amet leo convallis, ultrices nulla non, pharetra sem. Donec malesuada nisl non ligula congue, nec dignissim mi tincidunt. Fusce vulputate lectus eu nibh molestie aliquet. Ut augue ligula, elementum sed mauris et, euismod semper ligula. Integer pulvinar consectetur tempus.
 
