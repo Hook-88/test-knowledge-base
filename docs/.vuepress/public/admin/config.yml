@@ -32,9 +32,9 @@ collections:
       - { label: "Type", name: "type", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "koppelingen" # A name for your collection
-    label: "Koppelingen" # Label in the CMS UI
-    folder: "docs/beheer/koppelingen" # The folder where your articles live (e.g., your VuePress docs folder)
+  - name: "koppeling ysis" # A name for your collection
+    label: "Koppeling Ysis" # Label in the CMS UI
+    folder: "docs/beheer/koppelingen/ysis" # The folder where your articles live (e.g., your VuePress docs folder)
     create: true # Allow users to create new articles
     slug: "{{slug}}" # How filenames are generated
     fields:
