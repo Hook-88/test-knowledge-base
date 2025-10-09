@@ -13,7 +13,7 @@ D﻿An krijgen we hier de body
 ![Dosering opgeven weergave Handmatig](/uploads/screenshot-2025-10-09-at-08-34-08-medimo-evs.png "Dosering opgeven weergave Handmatig")
 
 [Toedienroute aanpassen](#h-ier-een-hoofdstuk).
-[﻿Teede](#daar-een-hoofdstuk)
+[﻿Teede](#d-aar-een-hoofdstuk)
 
 ## H﻿ier een hoofdstuk
 
