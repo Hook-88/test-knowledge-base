@@ -11,6 +11,8 @@ Hier een intro
 
 [hier een link](#hoofdstuk-one)
 
+[hier een link naar hoofdstuk twee](#hoofdstuk-two)
+
 ![Dosering opgeven weergave Handmatig](/uploads/screenshot-2025-10-09-at-08-34-08-medimo-evs.png "Dosering opgeven weergave Handmatig")
 
 # Hoofdstuk one
