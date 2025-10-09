@@ -20,7 +20,6 @@ collections:
       - { label: "Type", name: "type", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-collections:
   - name: "toedienregistratie" # A name for your collection
     label: "Toedienregistratie" # Label in the CMS UI
     folder: "docs/toedienregistratie" # The folder where your articles live (e.g., your VuePress docs folder)
