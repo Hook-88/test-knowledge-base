@@ -1,9 +1,13 @@
 ---
 title: De Status
-tags: [status, medicatielijst, cliënt, bewoner]
+date: 2025-10-09T00:06:49.524Z
+tags:
+  - status
+  - medicatielijst
+  - cliënt
+  - bewoner
 type: web
 ---
-
 # De Status
 
 Het dossier van de cliënt wordt in Medimo de **Status** genoemd. Vanuit daar kunt u de actuele medicatie van de cliënt aanpassen.
@@ -13,14 +17,16 @@ Het dossier van de cliënt wordt in Medimo de **Status** genoemd. Vanuit daar ku
 
 U kunt de status op verschilleden wijzen openen:
 
-- Knop **Status** in hoofmenu.
-- Veld **Zoeken in alles**.
+* Knop **Status** in hoofmenu.
+* Veld **Zoeken in alles**.
 
 ### Knop Status in het hoofdmenu
 
 In het hoofdmenu wordt de knop **Status** getoond. Hiermee start u het zoeken naar de status. Afhankelijk van uw zoekvoorkeuren krijgt u direct een lijst met cliënten te zien of dient u eerst een afdeling/locatie te kiezen.
 
 In de lijst met cliënten kunt u zoeken op naam, geboortedatum of afdeling/locatie van de cliënt. Klik op de cliënt om de status te openen.
+
+Hier doen we iets bij.....
 
 ### Veld Zoeken in alles
 
