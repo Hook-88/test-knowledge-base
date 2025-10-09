@@ -11,7 +11,6 @@ type: web
 # De Status
 
 Het dossier van de cliënt wordt in Medimo de **Status** genoemd. Vanuit daar kunt u de actuele medicatie van de cliënt aanpassen.
-![Status cliënt](/images/nieuwe-medicatie-status.png)
 
 ![Status client](/uploads/screenshot-2025-10-09-at-08-16-22-medimo-evs.png "Status client")
 
@@ -27,8 +26,6 @@ U kunt de status op verschillende wijzen openen:
 In het hoofdmenu wordt de knop **Status** getoond. Hiermee start u het zoeken naar de status. Afhankelijk van uw zoekvoorkeuren krijgt u direct een lijst met cliënten te zien of dient u eerst een afdeling/locatie te kiezen.
 
 In de lijst met cliënten kunt u zoeken op naam, geboortedatum of afdeling/locatie van de cliënt. Klik op de cliënt om de status te openen.
-
-Hier doen we iets bij.....
 
 ### Veld Zoeken in alles
 
