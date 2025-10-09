@@ -8,9 +8,22 @@ media_folder: "docs/.vuepress/public/uploads" # Path to media files, relative to
 public_folder: "/uploads" # Path to media files, relative to the site root
 
 collections:
-  - name: "articles" # A name for your collection
-    label: "Articles" # Label in the CMS UI
-    folder: "docs" # The folder where your articles live (e.g., your VuePress docs folder)
+  - name: "voorschrijven" # A name for your collection
+    label: "Voorschrijven" # Label in the CMS UI
+    folder: "docs/voorschrijven" # The folder where your articles live (e.g., your VuePress docs folder)
+    create: true # Allow users to create new articles
+    slug: "{{slug}}" # How filenames are generated
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+collections:
+  - name: "toedienregistratie" # A name for your collection
+    label: "Toedienregistratie" # Label in the CMS UI
+    folder: "docs/toedienregistratie" # The folder where your articles live (e.g., your VuePress docs folder)
     create: true # Allow users to create new articles
     slug: "{{slug}}" # How filenames are generated
     fields:
