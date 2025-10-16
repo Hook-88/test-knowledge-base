@@ -7,6 +7,15 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Dit is een test article",
+    "headers": [],
+    "path": "/dit-is-een-test-article.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "[test voorschrijven ander]"
+    ]
+  },
+  {
     "title": "Get Started",
     "headers": [
       {
@@ -190,58 +199,34 @@ export const SEARCH_INDEX = [
     ]
   },
   {
-    "title": "First Steps",
-    "headers": [],
-    "path": "/toedienregistratie/first-steps.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "getting started basics"
-    ]
-  },
-  {
-    "title": "Installation",
+    "title": "Dosering aanpassen - Handmatig",
     "headers": [
       {
         "level": 2,
-        "title": "Requirements",
-        "slug": "requirements",
-        "link": "#requirements",
+        "title": "H﻿ier een hoofdstuk",
+        "slug": "h-ier-een-hoofdstuk",
+        "link": "#h-ier-een-hoofdstuk",
         "children": []
       },
       {
         "level": 2,
-        "title": "Step 1: Download",
-        "slug": "step-1-download",
-        "link": "#step-1-download",
-        "children": [
-          {
-            "level": 3,
-            "title": "Windows",
-            "slug": "windows",
-            "link": "#windows",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mac",
-            "slug": "mac",
-            "link": "#mac",
-            "children": []
-          }
-        ]
+        "title": "D﻿aar een hoofdstuk",
+        "slug": "d-aar-een-hoofdstuk",
+        "link": "#d-aar-een-hoofdstuk",
+        "children": []
       },
       {
         "level": 2,
-        "title": "Step 2: Install",
-        "slug": "step-2-install",
-        "link": "#step-2-install",
+        "title": "A﻿llerlaatste hoofdstuk",
+        "slug": "a-llerlaatste-hoofdstuk",
+        "link": "#a-llerlaatste-hoofdstuk",
         "children": []
       }
     ],
-    "path": "/toedienregistratie/installation.html",
+    "path": "/voorschrijven/dosering-aanpassen-handmatig.html",
     "pathLocale": "/",
     "extraFields": [
-      "setup install windows"
+      "weergave handmatig doseren "
     ]
   },
   {
@@ -587,6 +572,92 @@ export const SEARCH_INDEX = [
     ]
   },
   {
+    "title": "First Steps",
+    "headers": [],
+    "path": "/toedienregistratie/first-steps.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "getting started basics"
+    ]
+  },
+  {
+    "title": "Installation",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Requirements",
+        "slug": "requirements",
+        "link": "#requirements",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Download",
+        "slug": "step-1-download",
+        "link": "#step-1-download",
+        "children": [
+          {
+            "level": 3,
+            "title": "Windows",
+            "slug": "windows",
+            "link": "#windows",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mac",
+            "slug": "mac",
+            "link": "#mac",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Install",
+        "slug": "step-2-install",
+        "link": "#step-2-install",
+        "children": []
+      }
+    ],
+    "path": "/toedienregistratie/installation.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "setup install windows"
+    ]
+  },
+  {
+    "title": "Ysis zorgdossier SSO",
+    "headers": [
+      {
+        "level": 2,
+        "title": "H﻿ier een hoofdstuk",
+        "slug": "h-ier-een-hoofdstuk",
+        "link": "#h-ier-een-hoofdstuk",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "D﻿aar een hoofdstuk",
+        "slug": "d-aar-een-hoofdstuk",
+        "link": "#d-aar-een-hoofdstuk",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "A﻿llerlaatste hoofdstuk",
+        "slug": "a-llerlaatste-hoofdstuk",
+        "link": "#a-llerlaatste-hoofdstuk",
+        "children": []
+      }
+    ],
+    "path": "/beheer/koppelingen/ysis/ysis-zorgdossier-sso.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "ysis sso single sign-on"
+    ]
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -594,3 +665,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

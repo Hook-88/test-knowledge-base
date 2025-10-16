@@ -53,10 +53,6 @@ export default defineUserConfig({
 
     navbar: [
       { text: "Home", link: "/" },
-      {
-        text: "Toedienregistratie",
-        link: "/toedienregistratie/installation.md",
-      },
       { text: "FAQ", link: "/faq/general.md" },
       { text: "MedimoApp", link: "/medimo-app/installation.md" },
       {
@@ -69,6 +65,37 @@ export default defineUserConfig({
           {
             text: "Medicatie invoeren",
             link: "/voorschrijven/nieuwe-medicatie-starten.md",
+          },
+        ],
+      },
+      {
+        text: "modules",
+        children: [
+          {
+            text: "Voorschrijven",
+            link: "/voorschrijven/nieuwe-medicatie-starten.md",
+          },
+          {
+            text: "Toedienregistratie",
+            link: "/toedienregistratie/installation.md",
+          },
+          {
+            text: "Medicatie bestellen",
+            link: "/toedienregistratie/installation.md",
+          },
+        ],
+      },
+      {
+        text: "Beheer",
+        children: [
+          {
+            text: "Koppelingen",
+            children: [
+              {
+                text: "Ysis",
+                link: "/beheer/koppelingen/ysis/ysis-zorgdossier-sso",
+              },
+            ],
           },
         ],
       },

@@ -10,7 +10,7 @@ import * as clientConfig8 from '/Users/paulushoekjan/repos/vue-press/test-knowle
 import * as clientConfig9 from '/Users/paulushoekjan/repos/vue-press/test-knowledge-base/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig10 from '/Users/paulushoekjan/repos/vue-press/test-knowledge-base/node_modules/@vuepress/theme-default/lib/client/config.js'
 import * as clientConfig11 from '/Users/paulushoekjan/repos/vue-press/test-knowledge-base/node_modules/@vuepress/plugin-search/lib/client/config.js'
-import * as clientConfig12 from '/Users/paulushoekjan/repos/vue-press/test-knowledge-base/docs/.vuepress/client.ts'
+import * as clientConfig12 from '/Users/paulushoekjan/repos/vue-press/test-knowledge-base/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
