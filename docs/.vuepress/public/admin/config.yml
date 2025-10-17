@@ -43,3 +43,15 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Type", name: "type", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "koppeling-algemeen" # A name for your collection
+    label: "Koppeling Algemeen" # Label in the CMS UI
+    folder: "docs/beheer/koppelingen/algemeen" # The folder where your articles live (e.g., your VuePress docs folder)
+    create: true # Allow users to create new articles
+    slug: "{{slug}}" # How filenames are generated
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
