@@ -15,13 +15,13 @@ Deze handleiding beschrijft hoe Ysis Zorgdossier kan worden gekoppeld aan Medimo
 
 De OIDC-koppeling met Ysis Zorgdossier biedt diverse voordelen:
 
-1. **Single Sign-On (SSO):** Gebruikers hoeven slechts één keer in te loggen bij Ysis en krijgen dan direct toegang tot Medimo.
-2. **Centralisatie van authenticatie:** Beheer van gebruikers en authenticatie blijft primair in Ysis Zorgdossier.
+* **Single Sign-On (SSO):** Gebruikers hoeven slechts één keer in te loggen bij Ysis en krijgen dan direct toegang tot Medimo.
+* **Centralisatie van authenticatie:** Beheer van gebruikers en authenticatie blijft primair in Ysis Zorgdossier.
 
 ## Voor wie is deze handleiding?
 
-1. **Functioneel Applicatiebeheerders (FAB):** Voor het configureren en beheren van de Ysis-koppelingen en groepsmapping.
-2. **Eindgebruikers:** Voor het begrijpen van het inlogproces via Ysis Zorgdossier.
+* **Functioneel Applicatiebeheerders (FAB):** Voor het configureren en beheren van de Ysis-koppelingen en groepsmapping.
+* **Eindgebruikers:** Voor het begrijpen van het inlogproces via Ysis Zorgdossier.
 
 # Voorbereiding
 
@@ -29,15 +29,17 @@ Om gebruik te kunnen maken van de SSO-koppeling, dient deze te zijn geconfiguree
 
 ## Koppeling configureren (koppelvlak)
 
-In Medimo wordt per klant een koppelvlak ingericht. Dit koppelvlak wordt gebruikt om de geldigheid van de koppeling te valideren. De Medimo helpdesk maakt het koppelvlak aan en configureert die. De helpdesk heeft hiervoor de volgende gegevens nodig:
+In Medimo wordt per klant voor acceptatie en productie een koppelvlak ingericht. Dit koppelvlak wordt gebruikt om de geldigheid van de koppeling te valideren. De Medimo helpdesk maakt het koppelvlak aan en configureert die. De helpdesk heeft hiervoor de volgende gegevens nodig:
 
-1. **OpenId-Connect identity provider:** Dit is de url die wordt gebruikt om de identiteit van de gebruiker na te gaan.
-2. **OpenId Client/Application Id:** Dit is het ID die Medimo gebruikt om zich te identificeren bij Ysis. 
-3. **OpenId Client/Application Secret:** Dit secret wordt samen met het ID gebruikt om de toegang te krijgen tot het identificatiesysteem van Ysis Zorgdossier. 
+* **OpenId-Connect identity provider:** Dit is de url die wordt gebruikt om de identiteit van de gebruiker na te gaan.
+* **OpenId Client/Application Id:** Dit is het ID die Medimo gebruikt om zich te identificeren bij Ysis. 
+* **OpenId Client/Application Secret:** Dit secret wordt samen met het ID gebruikt om de toegang te krijgen tot het identificatiesysteem van Ysis Zorgdossier. 
 
-Raadpleeg de documentatie van Gerimedica voor informatie over het configureren van de koppeling in Ysis zorgdossier. 
+Tijdens implementatie worden deze gegevens uitgewisseld. 
 
-Pas als de koppeling in beide systemen correct is geconfigureerd, is die technisch gereed en kan de koppelvlaktabel OpenId Beveiligingsgroep in Medimo worden ingericht. 
+Voor het configureren van de koppeling in Ysis Zorgdossier kunt u de documentatie van Gerimedica raadplegen.
+
+Pas als de koppeling in beide systemen correct is geconfigureerd, is die technisch gereed en kan de [Koppelvlaktabel OpenId Beveiligingsgroep](#koppelvlaktabel-open-id-beveiligingsgroepen) in Medimo worden ingericht. 
 
 # Proces
 
@@ -79,6 +81,7 @@ Gaat de locatie wel met Medimo werken, dan dient deze aan de juiste beveiligings
 4. Sla de wijziging op.
 
 # Foutmeldingen
+
 Treedt er een fout op in de koppeling, dan kan de toegang (deels) worden geweigerd. Deze fout dient te worden opgelost voordat de gebruiker volledig toegang krijgt tot Medimo. 
 
 Van deze fout wordt een foutmeldingen gegenereerd. Deze melding is na te gaan in de log single-sign-on. Ook wordt hiervan een e-mail verstuurd naar het ingestelde notify adres in het koppelvlak.
@@ -91,11 +94,25 @@ Om de permissies van de gebruiker te bepalen, worden Ysis Zorgdossiers locaties 
 
 Locaties die niet zijn gekoppeld worden genegeerd. Is er geen enkele locatie gekoppeld, dan wordt deze foutmelding gegenereerd. Deze foutmelding kan twee oorzaken hebben:
 
-- Er zijn locaties die moeten worden gekoppeld.
-- Gebruiker beschikt niet over de juiste permissies in Ysis Zorgdossier.
+* Er zijn locaties die moeten worden gekoppeld.
+* Gebruiker beschikt niet over de juiste permissies in Ysis Zorgdossier.
 
 ### Geen beveiligingsgroepen gevonden - Troubleshoot
 
 1. Open de log single-sign-on.
-2. Zoek de foutmelding en open de log daarvan.
-3. In de log wordt bij nummer 6 de ID's van de locaties uit Ysis Zorgdossier getoond. Deze ID's kunt u nagaan de koppelvlaktabel Open-Id-Connect en zo nodig koppelen. Zijn het locaties die geen gebruik maken van Medimo, dan dienen de permissies/rechten in Ysis Zorgdossier te worden aangepast. 
+
+   * Bijvoorbeeld via Beer > Logs > Log single-sign-on.
+2. Zoek de foutmelding op en open deze. Hier wordt getoond welke data is uitgewisseld. 
+3. In de log worden aan de linkerzijde nummers weergegeven. Bij nummer 6 kun je de ID's van de locaties uit Ysis Zorgdossier nagaan. Deze ID's kunt u opzoeken in de koppelvlaktabel Open-Id-Connect en zo nodig koppelen. Zijn het locaties die geen gebruik maken van Medimo, dan dienen de permissies/rechten in Ysis Zorgdossier te worden aangepast. 
+
+### Geen permissies gevonden - Troubleshoot
+
+1. Open de log single-sign-on.
+
+   * Bijvoorbeeld via Beer > Logs > Log single-sign-on.
+2. Zoek de foutmelding op en open deze. Hier wordt getoond welke data is uitgewisseld. 
+3. In de log worden aan de linkerzijde nummers weergegeven. Bij nummer 6 kun je de ID's van de locaties uit Ysis Zorgdossier nagaan. Deze ID's kunt u opzoeken in de koppelvlaktabel Open-Id-Connect en nagaan hoe die zijn gekoppeld. 
+
+Mogelijk is de verkeerde beveiligingsgroep gekoppeld. Koppel in dat geval de juiste beveiligingsgroep en vraag de gebruiker opnieuw in te loggen. 
+
+Is de juiste beveiligingsgroep gekoppeld, dan heeft deze groep geen permissies. Deze dient u toe te voegen. U kunt vanuit de details van de gekoppelde regel, de gekoppelde beveiligingsgroep openen. Vanuit daar kunt u permissies toevoegen. Als alle benodigde permissies zijn toegevoegd, kunt u de gebruiker vragen een nieuwe inlogpoging te doen.
