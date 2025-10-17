@@ -55,6 +55,7 @@ export default defineUserConfig({
       { text: "Home", link: "/" },
       { text: "FAQ", link: "/faq/general.md" },
       { text: "MedimoApp", link: "/medimo-app/installation.md" },
+
       {
         text: "Voorschrijven",
         children: [
@@ -68,6 +69,7 @@ export default defineUserConfig({
           },
         ],
       },
+
       {
         text: "modules",
         children: [
@@ -85,12 +87,17 @@ export default defineUserConfig({
           },
         ],
       },
+
       {
         text: "Koppelingen",
         children: [
           {
             text: "Ysis",
             link: "/beheer/koppelingen/ysis/ysis-algemeen",
+          },
+          {
+            text: "Ons",
+            link: "/beheer/koppelingen/ons/ons-algemeen",
           },
         ],
       },
@@ -141,9 +148,14 @@ export default defineUserConfig({
 
       "/beheer/koppelingen/ysis": [
         {
-          text: "Ysis Zorgdossier SSO",
+          text: "Ysis Zorgdossier",
           collapsible: true,
           children: ["ysis-zorgdossier-sso.md"],
+        },
+        {
+          text: "Ysis",
+          collapsible: true,
+          children: ["ysis-sso.md"],
         },
       ],
     },

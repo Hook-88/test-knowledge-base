@@ -735,6 +735,23 @@ export const SEARCH_INDEX = [
     ]
   },
   {
+    "title": "Ons Algemeen",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Beschikbare artikelen",
+        "slug": "beschikbare-artikelen",
+        "link": "#beschikbare-artikelen",
+        "children": []
+      }
+    ],
+    "path": "/beheer/koppelingen/ons/ons-algemeen.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "ons nedap"
+    ]
+  },
+  {
     "title": "Ysis algemeen",
     "headers": [
       {
@@ -752,76 +769,147 @@ export const SEARCH_INDEX = [
     ]
   },
   {
-    "title": "Ysis Zorgdossier SSO",
+    "title": "Ysis SSO",
     "headers": [
       {
         "level": 2,
-        "title": "Voor wie is deze handleiding?",
-        "slug": "voor-wie-is-deze-handleiding",
-        "link": "#voor-wie-is-deze-handleiding",
+        "title": "Omschrijving",
+        "slug": "omschrijving",
+        "link": "#omschrijving",
         "children": []
       },
       {
         "level": 2,
-        "title": "Koppeling configureren (koppelvlak)",
-        "slug": "koppeling-configureren-koppelvlak",
-        "link": "#koppeling-configureren-koppelvlak",
+        "title": "Inrichting Ysis",
+        "slug": "inrichting-ysis",
+        "link": "#inrichting-ysis",
         "children": []
       },
       {
         "level": 2,
-        "title": "Algemene flow",
-        "slug": "algemene-flow",
-        "link": "#algemene-flow",
+        "title": "Proces",
+        "slug": "proces",
+        "link": "#proces",
         "children": [
           {
             "level": 3,
-            "title": "SSO starten",
-            "slug": "sso-starten",
-            "link": "#sso-starten",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Koppelvlaktabel OpenId-connect nagaan",
-            "slug": "koppelvlaktabel-openid-connect-nagaan",
-            "link": "#koppelvlaktabel-openid-connect-nagaan",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Gebruiker inloggen",
-            "slug": "gebruiker-inloggen",
-            "link": "#gebruiker-inloggen",
+            "title": "Wel (of niet) tonen van cliënt",
+            "slug": "wel-of-niet-tonen-van-client",
+            "link": "#wel-of-niet-tonen-van-client",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "Nieuwe Ysis Zorgdossier locatie koppelen",
-        "slug": "nieuwe-ysis-zorgdossier-locatie-koppelen",
-        "link": "#nieuwe-ysis-zorgdossier-locatie-koppelen",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Geen beveiligingsgroepen gevonden",
-        "slug": "geen-beveiligingsgroepen-gevonden",
-        "link": "#geen-beveiligingsgroepen-gevonden",
+        "title": "Overige functies in de koppeling",
+        "slug": "overige-functies-in-de-koppeling",
+        "link": "#overige-functies-in-de-koppeling",
         "children": [
           {
             "level": 3,
-            "title": "Geen beveiligingsgroepen gevonden - Troubleshoot",
-            "slug": "geen-beveiligingsgroepen-gevonden-troubleshoot",
-            "link": "#geen-beveiligingsgroepen-gevonden-troubleshoot",
+            "title": "Berichten",
+            "slug": "berichten",
+            "link": "#berichten",
             "children": []
           },
           {
             "level": 3,
-            "title": "Geen permissies gevonden - Troubleshoot",
-            "slug": "geen-permissies-gevonden-troubleshoot",
-            "link": "#geen-permissies-gevonden-troubleshoot",
+            "title": "Deeplinks",
+            "slug": "deeplinks",
+            "link": "#deeplinks",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Koppelvlak opties",
+            "slug": "koppelvlak-opties",
+            "link": "#koppelvlak-opties",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/beheer/koppelingen/ysis/ysis-sso.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "ysis single sign on single-sign-on"
+    ]
+  },
+  {
+    "title": "Ysis Zorgdossier SSO",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Doel van de Ysis-koppeling:",
+        "slug": "doel-van-de-ysis-koppeling",
+        "link": "#doel-van-de-ysis-koppeling",
+        "children": [
+          {
+            "level": 3,
+            "title": "Voor wie is deze handleiding?",
+            "slug": "voor-wie-is-deze-handleiding",
+            "link": "#voor-wie-is-deze-handleiding",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Voorbereiding",
+        "slug": "voorbereiding",
+        "link": "#voorbereiding",
+        "children": [
+          {
+            "level": 3,
+            "title": "Koppeling configureren (koppelvlak)",
+            "slug": "koppeling-configureren-koppelvlak",
+            "link": "#koppeling-configureren-koppelvlak",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Proces",
+        "slug": "proces",
+        "link": "#proces",
+        "children": [
+          {
+            "level": 3,
+            "title": "Algemene flow",
+            "slug": "algemene-flow",
+            "link": "#algemene-flow",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Koppelvlaktabel Open-Id beveiligingsgroepen",
+        "slug": "koppelvlaktabel-open-id-beveiligingsgroepen",
+        "link": "#koppelvlaktabel-open-id-beveiligingsgroepen",
+        "children": [
+          {
+            "level": 3,
+            "title": "Nieuwe Ysis Zorgdossier locatie koppelen",
+            "slug": "nieuwe-ysis-zorgdossier-locatie-koppelen",
+            "link": "#nieuwe-ysis-zorgdossier-locatie-koppelen",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Foutmeldingen",
+        "slug": "foutmeldingen",
+        "link": "#foutmeldingen",
+        "children": [
+          {
+            "level": 3,
+            "title": "Geen beveiligingsgroepen gevonden",
+            "slug": "geen-beveiligingsgroepen-gevonden",
+            "link": "#geen-beveiligingsgroepen-gevonden",
             "children": []
           }
         ]
