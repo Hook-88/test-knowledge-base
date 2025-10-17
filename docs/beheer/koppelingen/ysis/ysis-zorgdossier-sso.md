@@ -77,3 +77,25 @@ Gaat de locatie wel met Medimo werken, dan dient deze aan de juiste beveiligings
 2. Zoek de nieuwe regel op en open deze.
 3. Selecteer de juiste beveiligingsgroep.
 4. Sla de wijziging op.
+
+# Foutmeldingen
+Treedt er een fout op in de koppeling, dan kan de toegang (deels) worden geweigerd. Deze fout dient te worden opgelost voordat de gebruiker volledig toegang krijgt tot Medimo. 
+
+Van deze fout wordt een foutmeldingen gegenereerd. Deze melding is na te gaan in de log single-sign-on. Ook wordt hiervan een e-mail verstuurd naar het ingestelde notify adres in het koppelvlak.
+
+Hieronder een overzicht van foutmeldingen en de toelichting daarop.
+
+## Geen beveiligingsgroepen gevonden
+
+Om de permissies van de gebruiker te bepalen, worden Ysis Zorgdossiers locaties gebruikt. [Deze locaties zijn gekoppeld aan Medimo beveiligingsgroepen](#koppelvlaktabel-openid-connect-nagaan). 
+
+Locaties die niet zijn gekoppeld worden genegeerd. Is er geen enkele locatie gekoppeld, dan wordt deze foutmelding gegenereerd. Deze foutmelding kan twee oorzaken hebben:
+
+- Er zijn locaties die moeten worden gekoppeld.
+- Gebruiker beschikt niet over de juiste permissies in Ysis Zorgdossier.
+
+### Geen beveiligingsgroepen gevonden - Troubleshoot
+
+1. Open de log single-sign-on.
+2. Zoek de foutmelding en open de log daarvan.
+3. In de log wordt bij nummer 6 de ID's van de locaties uit Ysis Zorgdossier getoond. Deze ID's kunt u nagaan de koppelvlaktabel Open-Id-Connect en zo nodig koppelen. Zijn het locaties die geen gebruik maken van Medimo, dan dienen de permissies/rechten in Ysis Zorgdossier te worden aangepast. 
