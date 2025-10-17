@@ -7,11 +7,13 @@ tags:
   - gerimedica
   - koppeling
 type: web
+sidebar: false
 ---
+
 Hier wat algemene info van de koppelpartner
 
 ## Beschikbare artikelen
 
-* [Ysis Zorgdossier SSO](https://idyllic-liger-3a3f40.netlify.app/beheer/koppelingen/ysis/ysis-zorgdossier-sso.html).
-* Ysis SSO.
-* Ysis NAW.
+- [Ysis Zorgdossier SSO](https://idyllic-liger-3a3f40.netlify.app/beheer/koppelingen/ysis/ysis-zorgdossier-sso.html).
+- Ysis SSO.
+- Ysis NAW.

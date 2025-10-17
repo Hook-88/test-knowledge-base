@@ -59,85 +59,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "First Steps",
-    "headers": [],
-    "path": "/toedienregistratie/first-steps.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "getting started basics"
-    ]
-  },
-  {
-    "title": "Installation",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Requirements",
-        "slug": "requirements",
-        "link": "#requirements",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Step 1: Download",
-        "slug": "step-1-download",
-        "link": "#step-1-download",
-        "children": [
-          {
-            "level": 3,
-            "title": "Windows",
-            "slug": "windows",
-            "link": "#windows",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mac",
-            "slug": "mac",
-            "link": "#mac",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Step 2: Install",
-        "slug": "step-2-install",
-        "link": "#step-2-install",
-        "children": []
-      }
-    ],
-    "path": "/toedienregistratie/installation.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "setup install windows"
-    ]
-  },
-  {
-    "title": "Toediening registreren",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Medicatie aftekenen zonder opgegeven dosering.",
-        "slug": "medicatie-aftekenen-zonder-opgegeven-dosering",
-        "link": "#medicatie-aftekenen-zonder-opgegeven-dosering",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Zo nodig medicatie aftekenen",
-        "slug": "zo-nodig-medicatie-aftekenen",
-        "link": "#zo-nodig-medicatie-aftekenen",
-        "children": []
-      }
-    ],
-    "path": "/toedienregistratie/toediening-registreren.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "Aftekenen tdr"
-    ]
-  },
-  {
     "title": "General FAQ",
     "headers": [
       {
@@ -275,6 +196,85 @@ export const SEARCH_INDEX = [
     "pathLocale": "/",
     "extraFields": [
       "setup install windows"
+    ]
+  },
+  {
+    "title": "First Steps",
+    "headers": [],
+    "path": "/toedienregistratie/first-steps.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "getting started basics"
+    ]
+  },
+  {
+    "title": "Installation",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Requirements",
+        "slug": "requirements",
+        "link": "#requirements",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Download",
+        "slug": "step-1-download",
+        "link": "#step-1-download",
+        "children": [
+          {
+            "level": 3,
+            "title": "Windows",
+            "slug": "windows",
+            "link": "#windows",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mac",
+            "slug": "mac",
+            "link": "#mac",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Install",
+        "slug": "step-2-install",
+        "link": "#step-2-install",
+        "children": []
+      }
+    ],
+    "path": "/toedienregistratie/installation.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "setup install windows"
+    ]
+  },
+  {
+    "title": "Toediening registreren",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Medicatie aftekenen zonder opgegeven dosering.",
+        "slug": "medicatie-aftekenen-zonder-opgegeven-dosering",
+        "link": "#medicatie-aftekenen-zonder-opgegeven-dosering",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Zo nodig medicatie aftekenen",
+        "slug": "zo-nodig-medicatie-aftekenen",
+        "link": "#zo-nodig-medicatie-aftekenen",
+        "children": []
+      }
+    ],
+    "path": "/toedienregistratie/toediening-registreren.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "Aftekenen tdr"
     ]
   },
   {
@@ -732,6 +732,23 @@ export const SEARCH_INDEX = [
     "pathLocale": "/",
     "extraFields": [
       "deeplink deeplinks single sign on"
+    ]
+  },
+  {
+    "title": "Ysis algemeen",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Beschikbare artikelen",
+        "slug": "beschikbare-artikelen",
+        "link": "#beschikbare-artikelen",
+        "children": []
+      }
+    ],
+    "path": "/beheer/koppelingen/ysis/ysis-algemeen.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "ysis algemeen gerimedica koppeling"
     ]
   },
   {

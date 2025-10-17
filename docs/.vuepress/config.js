@@ -90,7 +90,7 @@ export default defineUserConfig({
         children: [
           {
             text: "Ysis",
-            link: "/beheer/koppelingen/ysis/ysis-zorgdossier-sso",
+            link: "/beheer/koppelingen/ysis/ysis-algemeen",
           },
         ],
       },
@@ -139,17 +139,11 @@ export default defineUserConfig({
         },
       ],
 
-      "/beheer/koppelingen/": [
+      "/beheer/koppelingen/ysis": [
         {
-          text: "Ysis",
+          text: "Ysis Zorgdossier SSO",
           collapsible: true,
-          children: [
-            {
-              text: "Ysis Zorgdossier SSO",
-              collapsible: true,
-              children: ["ysis/ysis-zorgdossier-sso.md"],
-            },
-          ],
+          children: ["ysis-zorgdossier-sso.md"],
         },
       ],
     },
