@@ -59,6 +59,85 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "First Steps",
+    "headers": [],
+    "path": "/toedienregistratie/first-steps.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "getting started basics"
+    ]
+  },
+  {
+    "title": "Installation",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Requirements",
+        "slug": "requirements",
+        "link": "#requirements",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Step 1: Download",
+        "slug": "step-1-download",
+        "link": "#step-1-download",
+        "children": [
+          {
+            "level": 3,
+            "title": "Windows",
+            "slug": "windows",
+            "link": "#windows",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Mac",
+            "slug": "mac",
+            "link": "#mac",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Step 2: Install",
+        "slug": "step-2-install",
+        "link": "#step-2-install",
+        "children": []
+      }
+    ],
+    "path": "/toedienregistratie/installation.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "setup install windows"
+    ]
+  },
+  {
+    "title": "Toediening registreren",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Medicatie aftekenen zonder opgegeven dosering.",
+        "slug": "medicatie-aftekenen-zonder-opgegeven-dosering",
+        "link": "#medicatie-aftekenen-zonder-opgegeven-dosering",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Zo nodig medicatie aftekenen",
+        "slug": "zo-nodig-medicatie-aftekenen",
+        "link": "#zo-nodig-medicatie-aftekenen",
+        "children": []
+      }
+    ],
+    "path": "/toedienregistratie/toediening-registreren.html",
+    "pathLocale": "/",
+    "extraFields": [
+      "Aftekenen tdr"
+    ]
+  },
+  {
     "title": "General FAQ",
     "headers": [
       {
@@ -203,30 +282,24 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
-        "title": "H﻿ier een hoofdstuk",
-        "slug": "h-ier-een-hoofdstuk",
-        "link": "#h-ier-een-hoofdstuk",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "D﻿aar een hoofdstuk",
-        "slug": "d-aar-een-hoofdstuk",
-        "link": "#d-aar-een-hoofdstuk",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "A﻿llerlaatste hoofdstuk",
-        "slug": "a-llerlaatste-hoofdstuk",
-        "link": "#a-llerlaatste-hoofdstuk",
-        "children": []
+        "title": "Hoofdstuk two",
+        "slug": "hoofdstuk-two",
+        "link": "#hoofdstuk-two",
+        "children": [
+          {
+            "level": 3,
+            "title": "Hoofdstuk three",
+            "slug": "hoofdstuk-three",
+            "link": "#hoofdstuk-three",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/voorschrijven/dosering-aanpassen-handmatig.html",
     "pathLocale": "/",
     "extraFields": [
-      "weergave handmatig doseren "
+      "weergave handmatig doseren"
     ]
   },
   {
@@ -572,89 +645,175 @@ export const SEARCH_INDEX = [
     ]
   },
   {
-    "title": "First Steps",
-    "headers": [],
-    "path": "/toedienregistratie/first-steps.html",
-    "pathLocale": "/",
-    "extraFields": [
-      "getting started basics"
-    ]
-  },
-  {
-    "title": "Installation",
+    "title": "Deeplinking",
     "headers": [
       {
         "level": 2,
-        "title": "Requirements",
-        "slug": "requirements",
-        "link": "#requirements",
+        "title": "Wat kan Medimo met deeplinking",
+        "slug": "wat-kan-medimo-met-deeplinking",
+        "link": "#wat-kan-medimo-met-deeplinking",
         "children": []
       },
       {
         "level": 2,
-        "title": "Step 1: Download",
-        "slug": "step-1-download",
-        "link": "#step-1-download",
+        "title": "Wie kan er gebruik maken van deeplinking",
+        "slug": "wie-kan-er-gebruik-maken-van-deeplinking",
+        "link": "#wie-kan-er-gebruik-maken-van-deeplinking",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Welke view-parameters zijn er?",
+        "slug": "welke-view-parameters-zijn-er",
+        "link": "#welke-view-parameters-zijn-er",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "View-parameter AMO",
+        "slug": "view-parameter-amo",
+        "link": "#view-parameter-amo",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "URL",
+        "slug": "url",
+        "link": "#url",
         "children": [
           {
             "level": 3,
-            "title": "Windows",
-            "slug": "windows",
-            "link": "#windows",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Mac",
-            "slug": "mac",
-            "link": "#mac",
+            "title": "Voorbeelden URL",
+            "slug": "voorbeelden-url",
+            "link": "#voorbeelden-url",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "Step 2: Install",
-        "slug": "step-2-install",
-        "link": "#step-2-install",
-        "children": []
+        "title": "Deeplinks OpenId-Connect",
+        "slug": "deeplinks-openid-connect",
+        "link": "#deeplinks-openid-connect",
+        "children": [
+          {
+            "level": 3,
+            "title": "Voorbeelden OpenId-Connect URL",
+            "slug": "voorbeelden-openid-connect-url",
+            "link": "#voorbeelden-openid-connect-url",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Deeplinks van app naar MedimoApp",
+        "slug": "deeplinks-van-app-naar-medimoapp",
+        "link": "#deeplinks-van-app-naar-medimoapp",
+        "children": [
+          {
+            "level": 3,
+            "title": "Deeplinken op ExternID",
+            "slug": "deeplinken-op-externid",
+            "link": "#deeplinken-op-externid",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Deeplinken op MedimoID",
+            "slug": "deeplinken-op-medimoid",
+            "link": "#deeplinken-op-medimoid",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/toedienregistratie/installation.html",
+    "path": "/beheer/koppelingen/algemeen/deeplinking.html",
     "pathLocale": "/",
     "extraFields": [
-      "setup install windows"
+      "deeplink deeplinks single sign on"
     ]
   },
   {
-    "title": "Ysis zorgdossier SSO",
+    "title": "Ysis Zorgdossier SSO",
     "headers": [
       {
         "level": 2,
-        "title": "H﻿ier een hoofdstuk",
-        "slug": "h-ier-een-hoofdstuk",
-        "link": "#h-ier-een-hoofdstuk",
+        "title": "Voor wie is deze handleiding?",
+        "slug": "voor-wie-is-deze-handleiding",
+        "link": "#voor-wie-is-deze-handleiding",
         "children": []
       },
       {
         "level": 2,
-        "title": "D﻿aar een hoofdstuk",
-        "slug": "d-aar-een-hoofdstuk",
-        "link": "#d-aar-een-hoofdstuk",
+        "title": "Koppeling configureren (koppelvlak)",
+        "slug": "koppeling-configureren-koppelvlak",
+        "link": "#koppeling-configureren-koppelvlak",
         "children": []
       },
       {
         "level": 2,
-        "title": "A﻿llerlaatste hoofdstuk",
-        "slug": "a-llerlaatste-hoofdstuk",
-        "link": "#a-llerlaatste-hoofdstuk",
+        "title": "Algemene flow",
+        "slug": "algemene-flow",
+        "link": "#algemene-flow",
+        "children": [
+          {
+            "level": 3,
+            "title": "SSO starten",
+            "slug": "sso-starten",
+            "link": "#sso-starten",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Koppelvlaktabel OpenId-connect nagaan",
+            "slug": "koppelvlaktabel-openid-connect-nagaan",
+            "link": "#koppelvlaktabel-openid-connect-nagaan",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Gebruiker inloggen",
+            "slug": "gebruiker-inloggen",
+            "link": "#gebruiker-inloggen",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Nieuwe Ysis Zorgdossier locatie koppelen",
+        "slug": "nieuwe-ysis-zorgdossier-locatie-koppelen",
+        "link": "#nieuwe-ysis-zorgdossier-locatie-koppelen",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "Geen beveiligingsgroepen gevonden",
+        "slug": "geen-beveiligingsgroepen-gevonden",
+        "link": "#geen-beveiligingsgroepen-gevonden",
+        "children": [
+          {
+            "level": 3,
+            "title": "Geen beveiligingsgroepen gevonden - Troubleshoot",
+            "slug": "geen-beveiligingsgroepen-gevonden-troubleshoot",
+            "link": "#geen-beveiligingsgroepen-gevonden-troubleshoot",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Geen permissies gevonden - Troubleshoot",
+            "slug": "geen-permissies-gevonden-troubleshoot",
+            "link": "#geen-permissies-gevonden-troubleshoot",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/beheer/koppelingen/ysis/ysis-zorgdossier-sso.html",
     "pathLocale": "/",
     "extraFields": [
-      "ysis sso single sign-on"
+      "ysis koppeling single sign on"
     ]
   },
   {

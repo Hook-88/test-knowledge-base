@@ -86,16 +86,11 @@ export default defineUserConfig({
         ],
       },
       {
-        text: "Beheer",
+        text: "Koppelingen",
         children: [
           {
-            text: "Koppelingen",
-            children: [
-              {
-                text: "Ysis",
-                link: "/beheer/koppelingen/ysis/ysis-zorgdossier-sso",
-              },
-            ],
+            text: "Ysis",
+            link: "/beheer/koppelingen/ysis/ysis-zorgdossier-sso",
           },
         ],
       },
@@ -140,6 +135,20 @@ export default defineUserConfig({
             "dosering-aanpassen.md",
             "dosering-aanpassen-uitgebreid.md",
             "dosering-aanpassen-schema.md",
+          ],
+        },
+      ],
+
+      "/beheer/koppelingen/": [
+        {
+          text: "Ysis",
+          collapsible: true,
+          children: [
+            {
+              text: "Ysis Zorgdossier SSO",
+              collapsible: true,
+              children: ["ysis/ysis-zorgdossier-sso.md"],
+            },
           ],
         },
       ],
