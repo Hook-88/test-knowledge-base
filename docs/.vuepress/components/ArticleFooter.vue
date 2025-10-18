@@ -20,20 +20,34 @@ const footerText = computed(() => {
 
 <template>
     <div v-if="footerText" class="article-footer">
-        {{ footerText }}
+        <p>
+            {{ footerText }}
+            <!-- <img src="/images/footer-text/ce-mark-42944_960_720.webp" /> -->
+        </p>
     </div>
 </template>
 
 <style scoped>
 .article-footer {
     margin-top: 1rem;
-    text-align: justify;
-    /* padding: 1rem; */
     border-top: 1px solid #ddd;
     font-size: 0.9rem;
     color: #666;
     text-align: left;
     padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.article-footer p {
+    text-align: justify;
+}
+
+.article-footer img {
+    height: 1rem;
+    margin-left: auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 </style>

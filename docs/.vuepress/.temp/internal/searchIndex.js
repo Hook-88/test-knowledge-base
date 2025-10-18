@@ -645,6 +645,20 @@ export const SEARCH_INDEX = [
     ]
   },
   {
+    "title": "Categorieën",
+    "headers": [],
+    "path": "/aan-de-slag/tdr/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Categorieën",
+    "headers": [],
+    "path": "/aan-de-slag/voorschrijven/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Deeplinking",
     "headers": [
       {
@@ -750,6 +764,13 @@ export const SEARCH_INDEX = [
     "extraFields": [
       "ons nedap"
     ]
+  },
+  {
+    "title": "Categorieën",
+    "headers": [],
+    "path": "/beheer/koppelingen/ysis/",
+    "pathLocale": "/",
+    "extraFields": []
   },
   {
     "title": "Ysis algemeen",
@@ -925,6 +946,13 @@ export const SEARCH_INDEX = [
     "title": "",
     "headers": [],
     "path": "/404.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Categorieën",
+    "headers": [],
+    "path": "/aan-de-slag/koppelingen/",
     "pathLocale": "/",
     "extraFields": []
   }

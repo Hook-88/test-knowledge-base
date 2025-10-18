@@ -93,7 +93,7 @@ export default defineUserConfig({
         children: [
           {
             text: "Ysis",
-            link: "/beheer/koppelingen/ysis/ysis-algemeen",
+            link: "/beheer/koppelingen/ysis/",
           },
           {
             text: "Ons",

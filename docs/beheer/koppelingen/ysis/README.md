@@ -18,14 +18,13 @@ import CategoryLink from '@source/.vuepress/components/CategoryLink.vue'
 
 </script>
 
-# Dit zijn de categoriën
+# Ysis artikelen
 
-This is where we collect guides, FAQs, and troubleshooting docs.
+Alle Ysis artikelen, FAQs, en troubleshooting.
 
 <ul class="category-container">
-    <li><CategoryLink title="Toedienregistratie" discription="Alles over het gebruik van de toedienregistratie." url="http://localhost:8080/aan-de-slag/tdr/" /></li>
-    <li><CategoryLink title="Voorschrijven" discription="Alles over het invoeren van medicatie-opdrachten." url="/aan-de-slag/voorschrijven/" /></li>
-    <li><CategoryLink title="Koppelingen" discription="Alle Systemen waarmee kan worden gekoppeld." url="koppelingen/" /></li>
+    <li><CategoryLink title="Ysis SSO" discription="Handleiding van de single sing-on koppeling met Ysis" url="ysis-sso.html" /></li>
+    <li><CategoryLink title="Ysis Zorgdossier SSO" discription="Handleiding van de single sing-on koppeling met Ysis Zorgdossier" url="ysis-zorgdossier-sso.html" /></li>
 </ul>
 
 Use the sidebar to navigate, or try the search box above 🔍

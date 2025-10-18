@@ -23,9 +23,8 @@ import CategoryLink from '@source/.vuepress/components/CategoryLink.vue'
 This is where we collect guides, FAQs, and troubleshooting docs.
 
 <ul class="category-container">
-    <li><CategoryLink title="Toedienregistratie" discription="Alles over het gebruik van de toedienregistratie." url="http://localhost:8080/aan-de-slag/tdr/" /></li>
-    <li><CategoryLink title="Voorschrijven" discription="Alles over het invoeren van medicatie-opdrachten." url="/aan-de-slag/voorschrijven/" /></li>
-    <li><CategoryLink title="Koppelingen" discription="Alle Systemen waarmee kan worden gekoppeld." url="koppelingen/" /></li>
+    <li><CategoryLink title="Installatie" discription="Instructies voor instaleren van de TDR" url="./../../toedienregistratie/installation.html" /></li>
+    <li><CategoryLink title="First steps" discription="DE eerste stappen." url="./../../toedienregistratie/first-steps.html" /></li>
 </ul>
 
 Use the sidebar to navigate, or try the search box above 🔍
