@@ -30,18 +30,16 @@ In Ons zijn er 2 permissies die nodig zijn voor de SSO-koppeling:
 
 Een gebruiker heeft 1 van deze nodig in Ons om gebruik te kunnen maken van de SSO-koppeling. Voor meer informatie over de inrichting in Ons kunt u de documentatie van Nedap raadplegen. 
 
-### Proces
+## Proces
 
 Onderstaande afbeelding toont welke stappen de koppeling neemt om de permissies van de eindgebruiker te bepalen.
 
-
-
 Hieronder volgt per stap een korte toelichting.
 
-1. **Gebruiker logt in**Hierbij wordt een klantspecifieke URL gebruikt. Hierdoor weet Medimo welk koppelvlak er moet worden nagegaan. Voor het valideren van de toegang tot Medimo wordt het volgende nagegaan: 
-2. 1. **Certificaat -** Deze is uitgewisseld met Nedap. Komt het certificaat niet overeen met wat er is ingericht in het koppelvlak dan weigert Medimo de toegang.
-   2. **IP-adres -** In het koppelvlak wordt aangegeven welke IP-adressen zijn vertrouwd (i.e. op de whitelist staan). Komt het verzoek van een ander IP-adres dan wordt de toegang geweigerd. 
-3. **Usertype bepaald**Medimo gebruikt de permissie van de eindgebruiker in Ons om te bepalen wat het Usertype is. het Usertype bepaalt welke methode Medimo gebruikt voor het toekennen van de permissies. Hierin zijn 2 mogelijkheden:
+1. **Gebruiker logt in** Hierbij wordt een klantspecifieke URL gebruikt. Hierdoor weet Medimo welk koppelvlak er moet worden nagegaan. Voor het valideren van de toegang tot Medimo wordt het volgende nagegaan: 
+   * **Certificaat -** Deze is uitgewisseld met Nedap. Komt het certificaat niet overeen met wat er is ingericht in het koppelvlak dan weigert Medimo de toegang.
+   * **IP-adres -** In het koppelvlak wordt aangegeven welke IP-adressen zijn vertrouwd (i.e. op de whitelist staan). Komt het verzoek van een ander IP-adres dan wordt de toegang geweigerd. 
+3. **Usertype bepaald** Medimo gebruikt de permissie van de eindgebruiker in Ons om te bepalen wat het Usertype is. het Usertype bepaalt welke methode Medimo gebruikt voor het toekennen van de permissies. Hierin zijn 2 mogelijkheden:
 4. 1. **Eindgebruiker heeft in Ons de permissie 'Inzien in extern EVS'** - Medimo bepaalt aan de hand van de 'Koppelvlaktabel webservices' welke permissies er moeten worden toegekend. Medimo kenmerkt dergelijke eindgebruikers met het Usertype: VERZORGING. 
    2. **Eindgebruiker heeft in Ons de permissie 'Voorschrijven in extern EVS' -** Medimo bepaalt aan de hand van het gekoppelde account in de 'Koppeltabel single sign-on' welke permissies er moeten worden toegekend. Medimo kenmerkt dergelijke eindgebruikers met het Usertype: VOORSCHRIJVER. Eindgebruikers met de permissie 'Voorschrijven in extern EVS', behoeven ook een account op naam in Medimo. 
 
